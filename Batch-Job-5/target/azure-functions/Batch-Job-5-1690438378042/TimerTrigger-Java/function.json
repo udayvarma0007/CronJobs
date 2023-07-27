@@ -1,0 +1,10 @@
+{
+  "scriptFile" : "../Batch-Job-5-0.1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.example.TimerTriggerFunction.run",
+  "bindings" : [ {
+    "type" : "timerTrigger",
+    "direction" : "in",
+    "name" : "timerInfo",
+    "schedule" : "30 * * * * *"
+  } ]
+}
